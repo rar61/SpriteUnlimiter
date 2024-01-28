@@ -11,6 +11,10 @@
     <DebugType>None</DebugType>
   </PropertyGroup>
 
+  <PropertyGroup Condition="!Exists('$(MSBuildProjectFullPath).user')">
+    <GameBinaries Condition="$(GameBinaries)==''">$(TorchBinaries)\DedicatedServer64</GameBinaries>
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Include="manifest.xml" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>
