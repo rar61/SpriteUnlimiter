@@ -2,6 +2,6 @@
 <PluginManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>SpriteUnlimiter</Name>
   <Guid>72345ce1-04ed-489b-add1-c51f62ffff67</Guid>
-  <Repository>None</Repository>
+  <Repository>rar61/SpriteUnlimiter</Repository>
   <Version>v0.0.1</Version>
 </PluginManifest>
